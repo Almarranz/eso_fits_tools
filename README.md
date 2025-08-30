@@ -1,16 +1,16 @@
 ### A life raft for ESO's old-school FITS tools
 To install:
 
-#. Clone the GitHub repo with the original source:
+# Clone the GitHub repo with the original source:
 ```
 git clone https://github.com/granttremblay/eso_fits_tools.git
 cd eso_fits_tools
 ```
-#. Compile the tools using GCC or Make:
+# Compile the tools using GCC or Make:
 ```
 make
 ```
-#. Move the binaries into your PATH (e.g. /usr/local/bin):
+# Move the binaries into your PATH (e.g. /usr/local/bin):
 ```
 sudo mv dfits fitsort /usr/local/bin/
 ````
